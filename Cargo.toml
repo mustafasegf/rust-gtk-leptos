@@ -1,0 +1,9 @@
+[package]
+name = "gtk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cuid = "1.2.0"
+gtk = { version = "0.5.5", package = "gtk4", features = ["v4_8"] }
+leptos_reactive = { version = "0.1.0", features = ["csr"] }
